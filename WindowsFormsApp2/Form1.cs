@@ -54,5 +54,13 @@ namespace WindowsFormsApp2
             else
                 textBox2.UseSystemPasswordChar = true;
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (textBox2.UseSystemPasswordChar)
+                textBox2.UseSystemPasswordChar = false;
+            else
+                textBox2.UseSystemPasswordChar = true;
+        }
     }
 }
