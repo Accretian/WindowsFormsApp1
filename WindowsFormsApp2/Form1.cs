@@ -62,5 +62,7 @@ namespace WindowsFormsApp2
             else
                 textBox2.UseSystemPasswordChar = true;
         }
+
+        
     } 
 }
