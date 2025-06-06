@@ -36,8 +36,9 @@ namespace WindowsFormsApp2
             f1.Hide();
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
-
-        
+        }
     }
 }
